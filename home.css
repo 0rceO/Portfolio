@@ -1,0 +1,33 @@
+.nav-bar{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    color: white;
+    background-color:  #191919;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+    width:300px;
+    justify-content: space-between;
+    
+}
+.Menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2%;
+    
+}
+.Menu a:hover{
+    color: rgb(164, 5, 53);
+    font-weight: bold;
+    text-decoration: underline;
+}
