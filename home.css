@@ -71,6 +71,10 @@ nav a:hover {
 .profile {
     flex: 1;
     text-align: center;
+    padding: 30px;
+    background-color: #1e293b;
+    border-radius: 12%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .profile img {
@@ -128,22 +132,6 @@ nav a:hover {
 .summary p {
     color: #cbd5e1;
     line-height: 1.6;
-}
-
-.btn {
-    display: inline-block;
-    background: #3b82f6;
-    color: #fff;
-    padding: 0.7rem 1.5rem;
-    border-radius: 8px;
-    margin-top: 1rem;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.3s;
-}
-
-.btn:hover {
-    background: #2563eb;
 }
 
     /* Cards */
