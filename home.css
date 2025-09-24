@@ -113,6 +113,7 @@ nav a:hover {
 
 .socials a:hover {
     color: #facc15;
+    transform: translateY(5px);
 }
 
     /* Right Column */
