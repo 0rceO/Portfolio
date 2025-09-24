@@ -210,6 +210,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+    text-decoration: none;
 }
 
 .project {
@@ -220,12 +221,26 @@ nav a:hover {
     font-weight: 600;
     transition: transform 0.3s;
     text-align: center;
+    text-decoration: none;
+}
+
+.project:hover{
+    background: #facc15;
+    color: #1e293b;
+    text-decoration: none;
+    transform: translateY(5px);
 }
 
 .project-title {
     margin: 0.5rem;
     text-align: center;
     color: #facc15;
+}
+.project:hover .project-title{
+    margin: 0.5rem;
+    text-align: center;
+    color: #1e293b;
+    text-decoration: none;
 }
 
 .project img {
@@ -238,10 +253,6 @@ nav a:hover {
     color: #38bdf8;
 }
 
-.project a:hover{
-    text-decoration: none;
-    color: #facc15;
-}
 
 /* Footer */
 
