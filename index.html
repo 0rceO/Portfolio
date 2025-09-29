@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <title>Orceola P. Edriatama</title>
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav class="nav-bar">
@@ -18,12 +18,12 @@
             <a href="#past-projects">Past Projects</a>
         </div>
     </nav>
-
+    </br>
     <div class="container">
         <div class="container-left">
             <div class="profile">
                 <img src="./Assets/Image/SelfPortrate/3c3095b5-6394-4db5-972f-e62bcaf2aa4e (1).png" alt="Profile">
-                <h1>Orceola P. Edriatama</h1>
+                <h1 class="name">Orceola P. Edriatama</h1>
                 <h2>Computer Science Undergraduate</h2>
                 <p>Web & Game Programming Enthusiast</p>
                 <div class="contact-info">
@@ -66,49 +66,48 @@
                 </div>
             </div>
         </div>
-            
 
         <!-- RIGHT -->
         <div class="content">
-        <div class="section summary">
-            <h2>Professional Summary</h2>
-            <p>
-            I am a Computer Science undergraduate specializing in multimedia programming. 
-            Passionate about creating interactive websites and engaging games, I aim to blend creativity with technical expertise to craft immersive user experiences.
-            </p>
-            <!-- <a href="" class="btn">Download CV</a> -->
-        </div>
+            <div class="section summary">
+                <h2>Professional Summary</h2>
+                <p>
+                I am a Computer Science undergraduate specializing in multimedia programming. 
+                Passionate about creating interactive websites and engaging games, I aim to blend creativity with technical expertise to craft immersive user experiences.
+                </p>
+                <!-- <a href="" class="btn">Download CV</a> -->
+            </div>
 
-        <div class="section education">
-            <h2>Education</h2>
-            <div class="cards">
-            <div class="card">
-                <h3>Bachelor of Computer Science</h3>
-                <p>BINUS University, Alam Sutera<br>Specialization: Multimedia Programming (Web & Game Development)</p>
+            <div class="section education">
+                <h2>Education</h2>
+                <div class="cards">
+                <div class="card">
+                    <h3>Bachelor of Computer Science (curently studying)</h3>
+                    <p>BINUS University, Alam Sutera<br>Specialization: Multimedia Programming (Web & Game Development)</p>
+                </div>
+                </div>
             </div>
-            </div>
-        </div>
 
-        <div class="section skills">
-            <h2>Skills</h2>
-            <div class="tags">
-            <span class="tag">HTML & CSS</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">Unity & C#</span>
-            <span class="tag">Web Design</span>
-            <span class="tag">Game Development</span>
-            <span class="tag">Figma & Axure</span>
+            <div class="section skills">
+                <h2>Skills</h2>
+                <div class="tags">
+                <span class="tag">HTML & CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Unity & C#</span>
+                <span class="tag">Web Design</span>
+                <span class="tag">Game Development</span>
+                <span class="tag">Figma & Axure</span>
+                </div>
             </div>
-        </div>
         </div>
     </div>
   
   <section id="Certifications" class="Certifications">
         <h2 class="section-title">Certifications</h2>
-        <div class="certifications">
+        <div class="certifications" data-aos="fade-up" data-aos-duration="1000">
             <div class="certificate">
                 <img src="./Assets/Image/Certificate/64.ORCEOLA PRIMO EDRIATAMA.png" alt="">
-            </div>
+            </div> 
             <div class="certificate">
                 <img src="./Assets/Image/Certificate/Copy of Orceola.png" alt="">
             </div>
@@ -117,9 +116,11 @@
             </div>
         </div>
     </section>
-    <section id="past-projects">
+
+    <section id="past-projects" >
         <h2 class="section-title">Past Projects</h2>
-        <div class="projects">
+        <div class="projects" data-aos="fade-up"
+                data-aos-duration="1000">
             <a class="project" href="https://github.com/0rceO/Asphatl-9-ReJends" target="-blank">
                 <img src="./Assets/Image/Project/Asphatl 9 ReJends.png" alt="Asphatl 9 ReJends Project">
                 <h3 class="project-title">Asphatl 9 ReJends</h3>
@@ -131,11 +132,31 @@
                 <p>A simple First Person Shooter game developed with Unity.</p>
             </a>
             <a class="project" href="https://www.figma.com/proto/2Le7XPszzCeqsz4vPOGPnE/Untitled?page-id=0%3A1&node-id=0-132&p=f&viewport=671%2C412%2C0.09&t=yDW1v4Y9a1SdVrYB-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A132" target="-blank">
-                <img src="./Assets/Image/Project/Figma.png" alt="Figma Project">
-                <h3 class="project-title">Figma Project</h3>
+                <img src="./Assets/Image/Project/Figma.png" alt="Asphatl 9 ReJends Figma">
+                <h3 class="project-title">Asphatl 9 ReJends Figma</h3>
                 <p>A high-fidelity wireframe for the Asphatl 9 ReJends website using Figma.</p>                
+            </a>
+            <a class="project" href="https://www.figma.com/proto/tl4ufhcmQicx6XeHk1Nh1l/UX-Project--SOLARIS---Copy-?page-id=0%3A1&node-id=5-37&p=f&viewport=289%2C165%2C0.05&t=qmo298cIFICgHqvo-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=5%3A37" target="-blank">
+                <img src="./Assets/Image/Project/Solaris.png" alt="Solaris">
+                <h3 class="project-title">Solaris</h3>
+                <p>A high-fidelity wireframe for a online store Solaris using Figma.</p>                
+            </a>
+            <a class="project" href="https://github.com/0rceO/D-Classics-Books" target="-blank">
+                <img src="./Assets/Image/Project/D'Classics Books.png" alt="D'Classics Books">
+                <h3 class="project-title">D'Classics Books</h3>
+                <p>A high-fidelity wireframe for a online Book store D'Classics Books using Axure RP.</p>                
+            </a>
+            <a class="project" href="https://github.com/0rceO/Ruindows" target="-blank">
+                <img src="./Assets/Image/Project/Ruindows.png" alt="D'Classics Books">
+                <h3 class="project-title">Ruindows</h3>
+                <p>Ruindows is a UI prototype for a operating system using JavaFX</p>                
+            </a>                  
             </a>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
